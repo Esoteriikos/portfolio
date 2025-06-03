@@ -9,14 +9,12 @@ const Hero = () => {
     <section id="hero" className="min-h-screen flex flex-col justify-center items-center bg-gradient-to-br from-gray-900 via-gray-900 to-indigo-900 text-white pt-24 pb-16 px-4 sm:px-6 lg:px-8">
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
-          <Image
+          <img
             src="/images/profile.jpg"
             alt="Shubham Chaudhari"
-            width={180}
-            height={180}
+            width=180
+            height=180
             className="rounded-full mx-auto border-4 border-indigo-500 shadow-2xl object-cover"
-            priority
-            unoptimized
           />
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">SHUBHAM <span className="text-indigo-400">CHAUDHARI</span></h1>
