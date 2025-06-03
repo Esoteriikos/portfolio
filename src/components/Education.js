@@ -7,7 +7,7 @@ const educationData = [
     courses: ['CSCI 570: Analysis of Algorithm', 
       'DSCI 552: Machine Learning for Data Science',
       'CSCI 585: Database Systems',],
-    icon: <img src='./images/education/usc.png' alt='USC' width="60" height="40" className="object-contain h-10 w-auto" />,
+    icon: <img src='./images/education/usc.png' alt='USC' width="60" height="40" className="object-contain" />,
   },
   {
     institution: 'Vidyalankar Institute of Technology, University of Mumbai',
@@ -15,15 +15,24 @@ const educationData = [
     duration: 'July 2017 - June 2021',
     location: 'Mumbai, India',
     courses: ['CGPA: 9.14/10'],
-    icon: <img src='./images/education/vit.png' alt='VIT' width="40" height="40" className="object-contain h-10 w-auto" />,
+    icon: <img src='./images/education/vit.png' alt='VIT' width="100" height="40" className="object-contain" />,
   },
 ];
 
 const EducationItem = ({ institution, degree, duration, location, courses, icon }) => (
   <div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-indigo-500/30 transition-shadow duration-300">
     <div className="flex items-start space-x-4">
-      <div className="flex-shrink-0 w-12 h-12 bg-gray-700 rounded-full flex items-center justify-center">
-        {icon}
+      <div className="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 bg-slate-700/50 rounded-full flex items-center justify-center p-2 overflow-hidden">
+         {/* The icon prop now directly contains the <img> tag */}
+        {/* We will style the <img> tag itself via its className prop in educationData */}
+        {/* Forcing image to respect container, object-contain is good */}
+        {React.isValidElement(icon) ? 
+          React.cloneElement(icon, { 
+            // Ensure the image scales down if too large for its container, but respects its aspect ratio
+            // The className on the img tag in educationData will apply.
+            // We can add more default classes here if needed, but object-contain is key.
+            className: `${icon.props.className || ''} max-w-full max-h-full` 
+          }) : null}
       </div>
       <div>
         <h3 className="text-xl font-semibold text-indigo-300 mb-1">{institution}</h3>
