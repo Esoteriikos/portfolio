@@ -20,7 +20,7 @@ const Contact = () => {
     setError('');
     setSubmitted(false);
 
-    const formData = new FormData(event.target);
+    // const formData = new FormData(event.target);
     // const data = {
     //   [NAME_ENTRY_ID]: formData.get('name'),
     //   [EMAIL_ENTRY_ID]: formData.get('email'),
