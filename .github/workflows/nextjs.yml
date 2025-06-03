@@ -30,10 +30,10 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Build static site
+      - name: Build Next.js static app
         run: npm run build
 
-      - name: Upload static files
+      - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: out
