@@ -53,7 +53,7 @@ const Hero = () => {
               }}
             />
           </div>
-        <p className="text-md sm:text-lg text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">Currently pursuing a Master's in Computer Science (Data Science Specialization) at University of Southern California.</p>
+        <p className="text-md sm:text-lg text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">Currently pursuing a Masters in Computer Science (Data Science Specialization) at University of Southern California.</p>
         <p className="text-md sm:text-lg text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">Available for Summer 2026 opportunities.</p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
           <Link href="#projects" className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-10 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">View My Work</Link>

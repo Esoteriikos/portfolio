@@ -153,7 +153,8 @@ const certificatesData = [
   },
 ];
 
-const CertificateCard = ({ name, institution, date, honors, logoUrl, verificationUrl }) => (
+// verificationUrl removed from parameter
+const CertificateCard = ({ name, institution, date, honors, logoUrl }) => (
   <div className="bg-slate-800/60 backdrop-blur-sm p-4 rounded-lg shadow-lg border border-slate-700/50 flex items-center space-x-3 transition-all duration-300 hover:shadow-indigo-500/30 hover:border-indigo-500/60 min-h-[100px] sm:min-h-[120px]"> {/* Applied similar styling to AwardCard */}
     <div className="flex-shrink-0 text-3xl opacity-80"> {/* Icon container */}
       {/* {logoUrl && <img src={logoUrl} alt={institution} className="h-8 w-8 object-contain" />} */} 

@@ -28,9 +28,9 @@ const Contact = () => {
       [MESSAGE_ENTRY_ID]: formData.get('message'),
     };
 
-    // const encodedData = Object.keys(data)
-    //   .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
-    //   .join("&");
+    const encodedData = Object.keys(data)
+      .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+      .join("&");
 
     try {
       const iframe = document.createElement('iframe');
