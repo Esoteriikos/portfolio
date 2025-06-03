@@ -20,7 +20,7 @@ const certificatesData = [
   },
   { 
     name: "Generate Synthetic Images with DCGANs in Keras", 
-    institution: "Coursera Project Network", 
+    institution: "Coursera", 
     // date: "Jul 16, 2021", 
     // verificationUrl: "https://coursera.org/verify/FGE2RKQCKP5V", 
     logoUrl: "./images/logos/coursera.png" 
