@@ -77,9 +77,16 @@ const skillsData = [
       { name: 'OpenCV', icon: <span className="text-blue-500 text-4xl">👁️</span> },
       { name: 'Scikit-learn', icon: <SiScikitlearn className="text-yellow-500" /> },
       // { name: 'LightGBM'},
-      { name: 'XGBoost', icon: <img src="./images/logos/xgboost.png" alt="XGBoost" width=32 height=32 className="w-8 h-8" /> },
+      { name: 'XGBoost', icon: <img src="./images/logos/xgboost.png" alt="XGBoost" width="32" height="32" className="w-8 h-8" /> },
       { name: 'ONNX', icon: <SiOnnx className="text-blue-400" /> },
-    ],
+    // ],
+    //           <img
+    //         src="./images/profile.jpg"
+    //         alt="Shubham Chaudhari"
+    //         width="180"
+    //         height="180"
+    //         className="rounded-full mx-auto border-4 border-indigo-500 shadow-2xl object-cover"
+    //       />
   },
     {
     category: 'Core Expertise',
