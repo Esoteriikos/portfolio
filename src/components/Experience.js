@@ -3,7 +3,7 @@ import { FaBuilding, FaCalendarAlt } from 'react-icons/fa';
 const experienceData = [
   {
     role: 'AI ML Engineer II',
-    company: 'HERE Technology, Tech. Innovation Lab',
+    company: 'HERE Technologies, Tech. Innovation Lab',
     location: 'Mumbai, India',
     duration: 'Aug 2024 - Dec 2024',
     description: [
