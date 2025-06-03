@@ -28,9 +28,9 @@ const Contact = () => {
       [MESSAGE_ENTRY_ID]: formData.get('message'),
     };
 
-    const encodedData = Object.keys(data)
-      .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
-      .join("&");
+    // const encodedData = Object.keys(data)
+    //   .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+    //   .join("&");
 
     try {
       const iframe = document.createElement('iframe');
@@ -66,7 +66,7 @@ const Contact = () => {
           <h2 className="text-3xl sm:text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 mb-4 tracking-tight">Get In Touch</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-600 mx-auto rounded"></div>
           <p className="text-gray-400 mt-4 max-w-xl mx-auto">
-            I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+            I am always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
           </p>
         </div>
 

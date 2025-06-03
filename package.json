@@ -2,11 +2,15 @@
   "name": "shubham-portfolio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://esoteriikos.github.io/portfolio",
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "predeploy": "npm run build && npm run export",
+    "deploy": "gh-pages -d build"
+    
   },
   "dependencies": {
     "@headlessui/react": "^2.2.4",

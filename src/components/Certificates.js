@@ -8,147 +8,147 @@ const certificatesData = [
     name: "Deep Learning Specialization (5 Courses)", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 21, 2019", 
-    verificationUrl: "https://coursera.org/verify/specialization/J3K5RRTHBF98", 
+    // verificationUrl: "https://coursera.org/verify/specialization/J3K5RRTHBF98", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "TensorFlow Developer Professional Certificate (4 Courses)", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 19, 2020", 
-    verificationUrl: "https://coursera.org/verify/professional-cert/HB6HAVF2K65W", 
+    // verificationUrl: "https://coursera.org/verify/professional-cert/HB6HAVF2K65W", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Generate Synthetic Images with DCGANs in Keras", 
     institution: "Coursera Project Network", 
     // date: "Jul 16, 2021", 
-    verificationUrl: "https://coursera.org/verify/FGE2RKQCKP5V", 
+    // verificationUrl: "https://coursera.org/verify/FGE2RKQCKP5V", 
     logoUrl: "/images/logos/coursera.png" 
   },
   { 
     name: "Algorithmic Toolbox", 
     institution: "University of California San Diego (Coursera)", 
     // date: "Jun 25, 2020", 
-    verificationUrl: "https://coursera.org/verify/SE2G5X3MJ8VS", 
+    // verificationUrl: "https://coursera.org/verify/SE2G5X3MJ8VS", 
     logoUrl: "/images/logos/ucsd.png" 
   },
   { 
     name: "SQL for Data Science", 
     institution: "University of California, Davis (Coursera)",
     // date: "Jul 19, 2020", 
-    verificationUrl: "https://coursera.org/verify/SJ8E7PUNXVRA", 
+    // verificationUrl: "https://coursera.org/verify/SJ8E7PUNXVRA", 
     logoUrl: "/images/logos/ucdavis.png" 
   },
   { 
     name: "Build Basic Generative Adversarial Networks (GANs)", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jul 18, 2021", 
-    verificationUrl: "https://coursera.org/verify/Z7QYZX2LMAEG", 
+    // verificationUrl: "https://coursera.org/verify/Z7QYZX2LMAEG", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Neural Networks and Deep Learning", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 04, 2019", 
-    verificationUrl: "https://coursera.org/verify/63FANQFBB5J3", 
+    // verificationUrl: "https://coursera.org/verify/63FANQFBB5J3", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Improving Deep Neural Networks", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 05, 2019", 
-    verificationUrl: "https://coursera.org/verify/8WUGN686XESS", 
+    // verificationUrl: "https://coursera.org/verify/8WUGN686XESS", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Structuring Machine Learning Projects", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 06, 2019", 
-    verificationUrl: "https://coursera.org/verify/5GFFSLYQNV2E", 
+    // verificationUrl: "https://coursera.org/verify/5GFFSLYQNV2E", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Convolutional Neural Networks", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 12, 2019", 
-    verificationUrl: "https://coursera.org/verify/S8AALBM5LRAJ", 
+    // verificationUrl: "https://coursera.org/verify/S8AALBM5LRAJ", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Sequence Models", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 21, 2019", 
-    verificationUrl: "https://coursera.org/verify/DWQYR5WBB6P7", 
+    // verificationUrl: "https://coursera.org/verify/DWQYR5WBB6P7", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Introduction to TensorFlow for AI, ML, and DL", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Dec 13, 2019", 
-    verificationUrl: "https://coursera.org/verify/BS4NZYDJ7RY7", 
+    // verificationUrl: "https://coursera.org/verify/BS4NZYDJ7RY7", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Convolutional Neural Networks in TensorFlow", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Dec 15, 2019", 
-    verificationUrl: "https://coursera.org/verify/4C8XSXYXX535", 
+    // verificationUrl: "https://coursera.org/verify/4C8XSXYXX535", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Natural Language Processing in TensorFlow", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 12, 2020", 
-    verificationUrl: "https://coursera.org/verify/YSS8QCL24QDS", 
+    // verificationUrl: "https://coursera.org/verify/YSS8QCL24QDS", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Sequences, Time Series and Prediction", 
     institution: "DeepLearning.AI (Coursera)", 
     // date: "Jan 19, 2020", 
-    verificationUrl: "https://coursera.org/verify/PGGB7UH2EP22", 
+    // verificationUrl: "https://coursera.org/verify/PGGB7UH2EP22", 
     logoUrl: "/images/logos/deeplearning-ai.png" 
   },
   { 
     name: "Machine Learning with Python", 
     institution: "Cognitive Class (IBM)", 
     // date: "Apr 17, 2020", 
-    verificationUrl: "https://courses.cognitiveclass.ai/certificates/633355bf26364bd195aa6cd73415a372", 
+    // verificationUrl: "https://courses.cognitiveclass.ai/certificates/633355bf26364bd195aa6cd73415a372", 
     logoUrl: "/images/logos/cognitive-class.png" 
   },
   { 
     name: "Python 101 for Data Science", 
     institution: "Cognitive Class (IBM)", 
     // date: "Apr 15, 2020", 
-    verificationUrl: "https://courses.cognitiveclass.ai/certificates/02c30154393f4de585776b930b9c3cdf", 
+    // verificationUrl: "https://courses.cognitiveclass.ai/certificates/02c30154393f4de585776b930b9c3cdf", 
     logoUrl: "/images/logos/cognitive-class.png" 
   },
   { 
     name: "Blockchain Essentials", 
     institution: "Cognitive Class (IBM)", 
     // date: "Dec 18, 2019", 
-    verificationUrl: "https://courses.cognitiveclass.ai/certificates/e32e4e5c0bed49e5885c8659c533db5d", 
+    // verificationUrl: "https://courses.cognitiveclass.ai/certificates/e32e4e5c0bed49e5885c8659c533db5d", 
     logoUrl: "/images/logos/cognitive-class.png" 
   },  { 
     name: "Financial Markets", 
     institution: "Yale University (Coursera)", 
     // date: "Jun 14, 2020", 
     honors: true, 
-    verificationUrl: "https://coursera.org/verify/E4PHYN3R6CS4", 
+    // verificationUrl: "https://coursera.org/verify/E4PHYN3R6CS4", 
     logoUrl: "/images/logos/yale.png" 
   },
   { 
     name: "Blockchain Basics", 
     institution: "University at Buffalo, SUNY (Coursera)", 
     // date: "Jul 10, 2020", 
-    verificationUrl: "https://coursera.org/verify/F7ME793K7BCC", 
+    // verificationUrl: "https://coursera.org/verify/F7ME793K7BCC", 
     logoUrl: "/images/logos/suny-buffalo.png" 
   },
   { 
     name: "COVID-19 Contact Tracing", 
     institution: "Johns Hopkins University (Coursera)", 
     // date: "Jul 9, 2020", 
-    verificationUrl: "https://coursera.org/verify/A4G6CP2NPAFL", 
+    // verificationUrl: "https://coursera.org/verify/A4G6CP2NPAFL", 
     logoUrl: "/images/logos/johns-hopkins.png" 
   },
 ];

@@ -37,7 +37,7 @@ const Hero = () => {
                   'Shaping the future of technology with passion and expertise...',
                   'Exploring the intersection of AI and human creativity...',
                   'Harnessing the power of data to drive decisions...',
-                  'Pushing the boundaries of what’s possible with AI...',
+                  'Pushing the boundaries with AI...',
                   'Transforming industries with cutting-edge technology...',
                   'Bridging the gap between technology and real-world applications...',
                   'Dedicated to making technology accessible and impactful...',

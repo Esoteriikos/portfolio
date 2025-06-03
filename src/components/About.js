@@ -19,12 +19,12 @@ const About = () => {
           </p>
           <p>
             I thrive on collaborative challenges and am committed to continuous learning and
-            innovation. Currently, I'm enhancing my expertise through a Master's in
+            innovation. Currently, I am enhancing my expertise through a Masters in
             Computer Science with a specialization in Data Science at the University of Southern California.
           </p>
           <p>
             My goal is to contribute to impactful projects that leverage data to create smarter,
-            more efficient solutions for real-world problems. I'm always eager to connect with
+            more efficient solutions for real-world problems. I am always eager to connect with
             fellow innovators, recruiters, and explore new opportunities in the AI/ML space.
           </p>
         </div>
