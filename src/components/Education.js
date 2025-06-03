@@ -1,5 +1,3 @@
-import { FaUniversity, FaGraduationCap } from 'react-icons/fa';
-
 const educationData = [
   {
     institution: 'University of Southern California',
@@ -9,7 +7,7 @@ const educationData = [
     courses: ['CSCI 570: Analysis of Algorithm', 
       'DSCI 552: Machine Learning for Data Science',
       'CSCI 585: Database Systems',],
-    icon: <FaGraduationCap className="text-indigo-400 text-3xl" />,
+    icon: <img src='./images/education/usc.png' alt='USC' width="60" height="40" className="text-indigo-400 text-3xl" />,
   },
   {
     institution: 'Vidyalankar Institute of Technology, University of Mumbai',
@@ -17,7 +15,7 @@ const educationData = [
     duration: 'July 2017 - June 2021',
     location: 'Mumbai, India',
     courses: ['CGPA: 9.14/10'],
-    icon: <FaUniversity className="text-indigo-400 text-3xl" />,
+    icon: <img src='./images/education/vit.png' alt='USC' width="40" height="40" className="text-indigo-400 text-3xl" />,
   },
 ];
 
