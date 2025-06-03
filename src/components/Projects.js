@@ -5,7 +5,7 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 const projectsData = [
   {
     title: 'Product Attribute Prediction from Images Meesho Challenge',
-    image: '/images/projects/attribute-prediction.jpg', 
+    image: './images/projects/attribute-prediction.jpg', 
     description:
       'Developed a deep learning model to automatically predict product attributes (like color, pattern, sleeve length) from product images. This solution tackles discrepancies in e-commerce listings—such as mismatched text and images—and helps sellers streamline catalog entry. The model was built using PyTorch and vision transformers (Swin), enabling real-time attribute suggestions at scale. The solution significantly improves listing accuracy, reduces manual effort, and enhances user trust.',
     tech: [
@@ -25,7 +25,7 @@ const projectsData = [
   },
   {
     title: 'Home Automation System',
-    image: '/images/projects/home-automation.png', 
+    image: './images/projects/home-automation.png', 
     description:
       'Architected and built a self-hosted automation platform integrating IoT hardware, video streaming, file backup, and network security, creating a 100% secure, comprehensive home automation ecosystem with remote access and unlimited backup.',
     tech: ['Linux', 'ESP32', 'Cloudflare', 'Home Assistant', 'IoT'],
@@ -35,7 +35,7 @@ const projectsData = [
   },
   {
     title: 'Monocular Depth Estimation',
-    image: '/images/projects/depth-estimation.jpg', 
+    image: './images/projects/depth-estimation.jpg', 
     description:
       'Engineered an end-to-end ML pipeline for monocular depth estimation using custom deep learning models (U-Net) trained on KITTI/Cityscapes. Reduced processing latency by 50% using TensorRT for inference and applied MLOps practices.',
     tech: ['Python', 'PyTorch', 'OpenCV', 'TensorRT', 'U-Net', 'MLOps'],
@@ -46,7 +46,7 @@ const projectsData = [
 
   {
     title: 'Detect Retina Damage from OCT Images',
-    image: '/images/projects/retina-oct.jpg', // Make sure this image exists or replace with actual path
+    image: './images/projects/retina-oct.jpg', // Make sure this image exists or replace with actual path
     description:
       'Built a deep learning model using EfficientNet to detect retinal conditions such as CNV, DME, AMD, and normal retinas from high-resolution OCT (Optical Coherence Tomography) scans. This project addresses the time-intensive nature of manual retinal image analysis, automating disease classification to assist ophthalmologists with early diagnosis. Leveraged data augmentation, transfer learning, and advanced CNN architectures for robust performance on noisy medical data.',
     tech: [
@@ -68,7 +68,7 @@ const projectsData = [
   },
   {
     title: 'Emotion Recognizer from Images, Video & Webcam',
-    image: '/images/projects/emotion-recognizer.jpg',
+    image: './images/projects/emotion-recognizer.jpg',
     description:
       'Developed a real-time emotion recognition system that detects human faces from images, videos, or webcam streams and classifies emotions such as happy, sad, angry, and surprised using a custom-built CNN model. The pipeline includes face detection, prediction, and annotated output generation. The system supports multithreading for performance and is deployed via a Flask web app with file upload support using Flask-Dropzone.',
     tech: [
@@ -91,7 +91,7 @@ const projectsData = [
 
   {
     title: 'Automated Vaccine Slot Detection and Booking',
-    image: '/images/projects/vaccine-slot.jpg', // REPLACE/ENSURE this image exists
+    image: './images/projects/vaccine-slot.jpg', // REPLACE/ENSURE this image exists
     description:
       'Engineered a real-time data processing and notification system, integrating multiple APIs with custom filtering algorithms for COVID-19 vaccine slot detection and booking automation during the pandemic. Also implemented Selinium for automated booking.',
     tech: ['Python', 'API Integration', 'Data Engineering', 'Flask', 'Selinium' ,'JavaScript'],
@@ -102,7 +102,7 @@ const projectsData = [
 
   {
     title: 'WeatherApp',
-    image: '/images/projects/weather-app.jpg', // REPLACE/ENSURE this image exists
+    image: './images/projects/weather-app.jpg', // REPLACE/ENSURE this image exists
     description:
       'Application that delivers real-time weather updates for any city across the globe. Built with a focus on simplicity and usability, the app fetches and displays key weather metrics such as temperature, humidity, wind speed, and forecasts using the OpenWeatherMap API. It also integrates data visualization for a better user experience.',
     tech: ['Python', 'API Integration', 'Plotly', 'Streamlit', 'Sentry', 'Render', 'Pandas'],
@@ -112,7 +112,7 @@ const projectsData = [
   },
   {
     title: 'Plant Disease Detection',
-    image: '/images/projects/plant-disease.jpg', 
+    image: './images/projects/plant-disease.jpg', 
     description:
       'Developed a deep learning model to accurately detect and classify plant leaf diseases using high-variance image data. Addressed critical challenges in agricultural disease diagnosis such as multiple infections on a single leaf, rare classes, and environmental variation (light, angle, age). Leveraged EfficientNet and data augmentation techniques to improve model generalization. Integrated expert-driven labeling and regularization to enhance the model’s ability to identify relevant features under diverse real-world conditions.',
     tech: [
@@ -143,7 +143,7 @@ const ProjectCard = ({ title, image, description, tech, liveLink, githubLink, da
   <div className="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-indigo-500/50 flex flex-col">
     {image && (
       <div className="relative w-full h-56 sm:h-64">
-        <Image src={image} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-110" />
+        <img src={image} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-110" />
       </div>
     )}
     <div className="p-6 flex flex-col flex-grow">
