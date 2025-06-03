@@ -143,7 +143,7 @@ const ProjectCard = ({ title, image, description, tech, liveLink, githubLink, da
   <div className="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-indigo-500/50 flex flex-col">
     {image && (
       <div className="relative w-full h-56 sm:h-64">
-        <Image src={image} alt={title} layout="fill"  className="object-cover transition-transform duration-300 group-hover:scale-110" />
+        <Image src={image} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-110" />
       </div>
     )}
     <div className="p-6 flex flex-col flex-grow">

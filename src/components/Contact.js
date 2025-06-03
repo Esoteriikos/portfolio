@@ -1,7 +1,7 @@
 "use client";
 
 import { FaEnvelope, FaLinkedin, FaGithub, FaMapMarkerAlt } from 'react-icons/fa';
-import { useState } from 'react'; // Import useState for submission status
+import { useState } from 'react';
 
 const Contact = () => {
   const [submitted, setSubmitted] = useState(false);
@@ -21,16 +21,16 @@ const Contact = () => {
     setSubmitted(false);
 
     const formData = new FormData(event.target);
-    const data = {
-      [NAME_ENTRY_ID]: formData.get('name'),
-      [EMAIL_ENTRY_ID]: formData.get('email'),
-      [SUBJECT_ENTRY_ID]: formData.get('subject'),
-      [MESSAGE_ENTRY_ID]: formData.get('message'),
-    };
+    // const data = {
+    //   [NAME_ENTRY_ID]: formData.get('name'),
+    //   [EMAIL_ENTRY_ID]: formData.get('email'),
+    //   [SUBJECT_ENTRY_ID]: formData.get('subject'),
+    //   [MESSAGE_ENTRY_ID]: formData.get('message'),
+    // };
 
-    const encodedData = Object.keys(data)
-      .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
-      .join("&");
+    // const encodedData = Object.keys(data)
+    //   .map((k) => encodeURIComponent(k) + "=" + encodeURIComponent(data[k]))
+    //   .join("&"); 
 
     try {
       const iframe = document.createElement('iframe');
