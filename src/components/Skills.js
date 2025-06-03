@@ -1,4 +1,4 @@
-import Image from 'next/image';
+// import Image from 'next/image';
 import {
   FaPython, 
   FaJs, 
@@ -77,7 +77,7 @@ const skillsData = [
       { name: 'OpenCV', icon: <span className="text-blue-500 text-4xl">👁️</span> },
       { name: 'Scikit-learn', icon: <SiScikitlearn className="text-yellow-500" /> },
       // { name: 'LightGBM'},
-      { name: 'XGBoost', icon: <Image src="./images/logos/xgboost.png" alt="XGBoost" width={32} height={32} className="w-8 h-8" /> },
+      { name: 'XGBoost', icon: <img src="./images/logos/xgboost.png" alt="XGBoost" width=32 height=32 className="w-8 h-8" /> },
       { name: 'ONNX', icon: <SiOnnx className="text-blue-400" /> },
     ],
   },
