@@ -16,6 +16,7 @@ const Hero = () => {
             height={180}
             className="rounded-full mx-auto border-4 border-indigo-500 shadow-2xl object-cover"
             priority
+            unoptimized
           />
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">SHUBHAM <span className="text-indigo-400">CHAUDHARI</span></h1>
