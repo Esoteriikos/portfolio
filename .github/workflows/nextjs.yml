@@ -1,8 +1,8 @@
-name: Deploy Next.js + Tailwind App to GitHub Pages
+name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: ["main"] # Change if using another branch
+    branches: ["main"] # or "master", depending on your default branch
   workflow_dispatch:
 
 permissions:
@@ -12,7 +12,7 @@ permissions:
 
 concurrency:
   group: "pages"
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -25,21 +25,20 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: 20
 
       - name: Install dependencies
         run: npm ci
 
-      - name: Build the project
-        run: npm run build 
+      - name: Build & Export
+        run: |
+          npm run build
+          npm run export
 
-      - name: predeploy and deploy
-        run: npm run predeploy && npm run deploy
-
-      - name: Upload static files
+      - name: Upload static site
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./out
+          path: out
 
   deploy:
     needs: build
