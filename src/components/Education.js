@@ -15,7 +15,7 @@ const educationData = [
     duration: 'July 2017 - June 2021',
     location: 'Mumbai, India',
     courses: ['CGPA: 9.14/10'],
-    icon: <img src='./images/education/vit.png' alt='USC' width="40" height="40" className="text-indigo-400 text-3xl" />,
+    icon: <img src='./images/education/vit.png' alt='VIT' width="40" height="40" className="w-8 h-8" />,
   },
 ];
 
