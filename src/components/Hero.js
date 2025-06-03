@@ -12,10 +12,11 @@ const Hero = () => {
           <img
             src="/images/profile.jpg"
             alt="Shubham Chaudhari"
-            width=180
-            height=180
+            width="180"
+            height="180"
             className="rounded-full mx-auto border-4 border-indigo-500 shadow-2xl object-cover"
           />
+
         </div>
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold mb-4 tracking-tight">SHUBHAM <span className="text-indigo-400">CHAUDHARI</span></h1>
         <p className="text-xl md:text-2xl text-gray-300 mb-6 font-medium">Crafting Intelligent Solutions with GenAI, Computer Vision, LLMs</p>
