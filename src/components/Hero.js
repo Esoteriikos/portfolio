@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="text-center max-w-4xl mx-auto">
         <div className="mb-8">
           <img
-            src="/images/profile.jpg"
+            src="./images/profile.jpg"
             alt="Shubham Chaudhari"
             width="180"
             height="180"
