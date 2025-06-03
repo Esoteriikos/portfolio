@@ -31,7 +31,10 @@ jobs:
         run: npm ci
 
       - name: Build the project
-        run: npm run build && npm run export
+        run: npm run build 
+
+      - name: predeploy and deploy
+        run: npm run predeploy && npm run deploy
 
       - name: Upload static files
         uses: actions/upload-pages-artifact@v3
