@@ -140,10 +140,21 @@ const projectsData = [
 ];
 
 const ProjectCard = ({ title, image, description, tech, liveLink, githubLink, date }) => (
-  <div className="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-indigo-500/50 flex flex-col">
+  // <div className="bg-gray-800 rounded-xl shadow-xl overflow-hidden transform transition-all duration-300 hover:scale-105 hover:shadow-indigo-500/50 flex flex-col">
+  //   {image && (
+  //     <div className="relative w-full h-56 sm:h-64">
+  //       <Image src={image} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-110" />
+  //     </div>
+  //   )}
+  <div className="group bg-gray-800/70 backdrop-blur-md rounded-xl shadow-xl overflow-hidden border border-gray-700/50 transform transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-indigo-500/60 hover:border-indigo-500/70 flex flex-col"> {/* Added group here */}
     {image && (
-      <div className="relative w-full h-56 sm:h-64">
-        <Image src={image} alt={title} fill className="object-cover transition-transform duration-300 group-hover:scale-110" />
+      <div className="w-full h-56 sm:h-64 overflow-hidden"> 
+        <img
+          src={image}
+          alt={title}
+          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110" // Fills container, scales on group hover
+          loading="lazy" 
+        />
       </div>
     )}
     <div className="p-6 flex flex-col flex-grow">
