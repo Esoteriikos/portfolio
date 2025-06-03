@@ -1,6 +1,6 @@
 "use client";
 import Typewriter from 'typewriter-effect';
-import Image from 'next/image';
+// import Image from 'next/image';
 import Link from 'next/link';
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
