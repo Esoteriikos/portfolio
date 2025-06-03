@@ -1,5 +1,5 @@
 "use client"; 
-import Image from 'next/image';
+// import Image from 'next/image';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projectsData = [
