@@ -7,9 +7,10 @@ const experienceData = [
     location: 'Mumbai, India',
     duration: 'Aug 2024 - Dec 2024',
     description: [
-      'Devised and built RAG-based LLM pipelines applying LangChain to auto-generate code and documentation for internal Java SDKs, boosting developer productivity by up to 30% and reducing ticket backlog by 50%.',
-      'Accelerated knowledge retrieval using optimized RAG + vector DBs, enhancing processing efficiency by 40%.',
-      'Designed and optimized scalable AI/ML components, including data loaders and LLM model re-ranking, reducing latency by 50+% and improving user rating by 15% in enterprise models.',
+      "Architected and developed an end-to-end GenAI assistant with LangChain and CodeQwen, leveraging a custom-configured vector database to query internal Java SDKs",
+      "Built a high-fidelity data ingestion pipeline using LlamaParse and custom PyPDF parsers, optimizing document chunking strategies which enhanced LLM processing efficiency by 40%",
+      "Engineered a hybrid retrieval system with a cross-encoder re-ranker to boost contextual accuracy by 25% over baseline vector search, delivering superior context to the generator model",
+      "Established a robust LLMOps framework: utilized Apache Airflow for data orchestration, Docker for containerization, and MLflow for experiment tracking, leading to a 30% rise in developer productivity",
     ],
   },
   {
@@ -18,10 +19,11 @@ const experienceData = [
     location: 'Mumbai, India',
     duration: 'July 2021 - July 2024',
     description: [
-      'Developed and deployed computer vision-based cashier-less retail solutions (Autonomous Store, Smart Cart, Freshness Monitoring), improving real-time item recognition accuracy by 30% and optimizing for IoT hardware.',
-      'Reduced shelf replenishment and spoilage delays by 60+% and diminished checkout times by over 80%, significantly increasing operational efficiency.',
-      'Implemented real-time inventory management and freshness monitoring using Azure and image processing/Deep Learning, integrating with Future Store Observability dashboard.',
-      "Led 'TechFM' knowledge-sharing initiative, conducting AI/ML & OpenCV workshops, upskilling 400+ professionals & 1000+ students, increasing engagement by 40%.",
+      "Architected a multi-camera vision pipeline integrating OpenPose, OpenCV with data from IoT load sensors using Pub/Sub messaging system to track end-to-end customer journey  in an autonomous store, reducing checkout times by over 80%",
+      "Developed two targeted solutions on Azure Vision Studio: 1) A custom shelf-monitoring model that cut stockout and spoilage delays by 60%, and 2) A CCTV video summarization service that reduced incident review time by 70%",
+      "Pioneered a generative AI pipeline for instant e-commerce cataloging; integrated Super-Resolution CNNs and GANs to perform virtual clothing try-ons from a single 2D image, cutting catalog production time from weeks to hour",
+      "Optimized models for edge deployment on NVIDIA Jetson devices, using ONNX, TensorRT and model quantization to boost real-time item recognition to achieve 7x faster inference",
+      "Spearheaded the 'TechFM' knowledge-sharing program, training 400+ colleagues and 1000+engineering  students in practical AI/ML concepts, fostering a culture of technical excellence and continuous learning"
     ],
   },
   {
@@ -30,8 +32,9 @@ const experienceData = [
     location: 'Mumbai, India',
     duration: 'Feb 2021 - May 2021',
     description: [
-      'Implemented ML models (Lasso, XGBoost, scikit-learn) for Signal Detection in Materiovigilance, enhancing early adverse event detection by 25%.',
-      'Led development of an analytics dashboard integrating AI models with unstructured MongoDB data (Python, Pandas), improving healthcare professional response time.',
+      "Engineered predictive models for Materiovigilance, utilizing Lasso regression for feature selection and XGBoost for high-accuracy prediction, which boosted the early detection of adverse events by 25%",
+      "Led the design and deployment of a Python-based  Streamlit analytics dashboard, providing healthcare professionals with real-time, actionable insights from MongoDB data and accelerating clinical response times",
+
     ],
   },
 ];

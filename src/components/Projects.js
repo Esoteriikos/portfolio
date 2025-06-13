@@ -4,6 +4,32 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 const projectsData = [
   {
+    title: 'Real-Time Data Streaming & Analytics Platform',
+    image: './images/projects/data-streamer.jpg', 
+    description:
+      'Architected a fully containerized, real-time data platform using Docker Compose to orchestrate a multi-service environment including Kafka, Zookeeper, and PostgreSQL. Implemented the data ingestion layer using Airbyte to reliably extract data from external REST APIs and publish it to a central Apache Kafka streaming backbone for decoupled processing. Engineered a custom Python consumer service (kafka-python, psycopg2) to subscribe to Kafka topics, perform in-stream data validation and transformation, and load structured data into PostgreSQL. Enabled end-to-end data visibility and analysis by integrating the data warehouse with Metabase for real-time BI dashboarding and Kafdrop for live Kafka topic monitoring.',
+    tech: [
+      'Python', 
+      'Airbyte', 
+      'Kafka', 
+      'PostgreSQL',
+      'Docker',
+      'Docker Compose',
+      'Zookeeper',
+      'Metabase',
+      'Kafdrop',
+      'Data Transformation',
+      'Data Ingestion',
+      'Data Visualization/Analytics',
+      'Data Monitoring',
+      'Data Orchestration', 
+
+    ],
+    liveLink: null,
+    // githubLink: 'https://github.com/your-repo-link', // Add your actual GitHub repo link here
+    // date: 'October 2024 - November 2024',
+  },
+  {
     title: 'Product Attribute Prediction from Images Meesho Challenge',
     image: './images/projects/attribute-prediction.jpg', 
     description:
@@ -31,7 +57,7 @@ const projectsData = [
     tech: ['Linux', 'ESP32', 'Cloudflare', 'Home Assistant', 'IoT'],
     liveLink: null, 
     // githubLink: 'https://github.com/shubham-ch9/home-automation-project', // Example, replace
-    date: 'Aug 2023 - Dec 2024',
+    // date: 'Aug 2023 - Dec 2024',
   },
   {
     title: 'Monocular Depth Estimation',
@@ -41,7 +67,7 @@ const projectsData = [
     tech: ['Python', 'PyTorch', 'OpenCV', 'TensorRT', 'U-Net', 'MLOps'],
     liveLink: null,
     // githubLink: 'https://github.com/shubham-ch9/monocular-depth-project', 
-    date: 'Jan 2021 - June 2021',
+    // date: 'Jan 2021 - June 2021',
   },
 
   {
@@ -64,7 +90,7 @@ const projectsData = [
     ],
     liveLink: null,
     // githubLink: 'https://github.com/your-retina-oct-model', // Add actual repo link here
-    date: 'September 2024 - October 2024',
+    // date: 'September 2024 - October 2024',
   },
   {
     title: 'Emotion Recognizer from Images, Video & Webcam',
@@ -85,7 +111,7 @@ const projectsData = [
     ],
     liveLink: null,
     // githubLink: 'https://github.com/your-emotion-recognizer-repo', // Add actual link
-    date: 'June 2024 - July 2024',
+    // date: 'June 2024 - July 2024',
   },
 
 
@@ -97,7 +123,7 @@ const projectsData = [
     tech: ['Python', 'API Integration', 'Data Engineering', 'Flask', 'Selinium' ,'JavaScript'],
     liveLink: null,
     // githubLink: 'https://github.com/shubham-ch9/vaccine-slot-detector',
-    date: 'March 2021 - April 2021',
+    // date: 'March 2021 - April 2021',
   },
 
   {
@@ -134,7 +160,7 @@ const projectsData = [
     ],
     liveLink: null,
     // githubLink: 'https://github.com/your-plant-disease-repo', 
-    date: 'August 2024 - September 2024',
+    // date: 'August 2024 - September 2024',
   }
 
 ];

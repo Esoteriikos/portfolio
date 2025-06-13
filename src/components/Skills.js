@@ -29,6 +29,7 @@ import { SiTensorflow,
   SiJupyter,
   SiPostman,
   SiPlotly,
+  SiMetabase,
   // SiTableau,
   // SiPowerbi,
   // SiLooker,
@@ -51,7 +52,8 @@ import { SiTensorflow,
   // SiMicrosoft,
   // SiMicrosoftazure, 
   // SiCloud66, 
-  SiOpenai } from 'react-icons/si';
+  SiOpenai, 
+  SiMetabase} from 'react-icons/si';
 
 const skillsData = [
   {
@@ -157,6 +159,7 @@ const skillsData = [
       // { name: 'Tableau', icon: <SiTableau className="text-orange-500" /> },
       // { name: 'Power BI', icon: <SiPowerbi className="text-yellow-500" /> },
       // { name: 'Looker', icon: <SiLooker className="text-purple-500" /> },
+      { name: 'Metabase', icon: <SiMetabase className="text-green-500" /> },
       { name: 'Streamlit Charts', icon: <SiStreamlit className="text-red-500" /> },
       { name: 'Grafana', icon: <SiGrafana className="text-orange-400" /> },
     ],
