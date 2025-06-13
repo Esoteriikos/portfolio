@@ -52,8 +52,7 @@ import { SiTensorflow,
   // SiMicrosoft,
   // SiMicrosoftazure, 
   // SiCloud66, 
-  SiOpenai, 
-  SiMetabase} from 'react-icons/si';
+  SiOpenai} from 'react-icons/si';
 
 const skillsData = [
   {
