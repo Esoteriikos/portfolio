@@ -26,8 +26,34 @@ const projectsData = [
 
     ],
     liveLink: null,
-    // githubLink: 'https://github.com/your-repo-link', // Add your actual GitHub repo link here
+    githubLink: 'https://github.com/Esoteriikos/data_streamer', 
     // date: 'October 2024 - November 2024',
+  },
+  {
+    title: 'Waste Classification with Deep Learning & Transfer Learning',
+    image: './images/projects/waste-classification.png',
+    description:
+      'Developed a waste classification pipeline using TensorFlow and Keras, leveraging transfer learning with pre-trained CNNs (ResNet, EfficientNet, VGG) for robust multi-class image recognition. Automated data preprocessing, augmentation, and class imbalance handling with class weights. Implemented parallelized data loading and efficient pipelines using tf.data.Dataset. Enhanced skills in model evaluation, experiment tracking, and result visualization. Applied deep learning and parallelization techniques to address a practical waste management problem.',
+    tech: [
+      'Python',
+      'TensorFlow',
+      'Keras',
+      'Transfer Learning',
+      'ResNet',
+      'EfficientNet',
+      'VGG',
+      'tf.data.Dataset',
+      'Image Augmentation',
+      'Class Imbalance Handling',
+      'Parallelization',
+      'Data Preprocessing',
+      'Model Evaluation',
+      'Experiment Tracking',
+      'Data Visualization'
+    ],
+    liveLink: null,
+    githubLink: 'https://github.com/Esoteriikos/Transfer-Learning_Waste-Classification',
+    // date: 'April 2025 - June 2025',
   },
   {
     title: 'Product Attribute Prediction from Images Meesho Challenge',
@@ -46,7 +72,7 @@ const projectsData = [
       'PIL'
     ],
     liveLink: null,
-    // githubLink: 'https://github.com/your-repo-link', // Add your actual GitHub repo link here
+    // githubLink: 'https://github.com/your-repo-link', 
     // date: 'October 2024 - November 2024',
   },
   {
@@ -89,7 +115,7 @@ const projectsData = [
       'Pandas'
     ],
     liveLink: null,
-    // githubLink: 'https://github.com/your-retina-oct-model', // Add actual repo link here
+    githubLink: 'https://github.com/Esoteriikos/Detect-Retina-Damage-from-OCT-images', 
     // date: 'September 2024 - October 2024',
   },
   {
@@ -110,19 +136,19 @@ const projectsData = [
       'Real-time Video Processing'
     ],
     liveLink: null,
-    // githubLink: 'https://github.com/your-emotion-recognizer-repo', // Add actual link
+    githubLink: 'https://github.com/Esoteriikos/emotion-recognizer',
     // date: 'June 2024 - July 2024',
   },
 
 
   {
-    title: 'Automated Vaccine Slot Detection and Booking',
-    image: './images/projects/vaccine-slot.jpg', // REPLACE/ENSURE this image exists
+    title: 'Automated Vaccine Slot Detection Assistant',
+    image: './images/projects/vaccine-slot.jpg',
     description:
       'Engineered a real-time data processing and notification system, integrating multiple APIs with custom filtering algorithms for COVID-19 vaccine slot detection and booking automation during the pandemic. Also implemented Selinium for automated booking.',
-    tech: ['Python', 'API Integration', 'Data Engineering', 'Flask', 'Selinium' ,'JavaScript'],
+    tech: ['Python', 'JavaScript', 'Heroku', 'API Integration', 'Data Engineering', 'Flask', 'Selinium' , 'HTML', 'CSS', 'Bootstrap'],
     liveLink: null,
-    // githubLink: 'https://github.com/shubham-ch9/vaccine-slot-detector',
+    githubLink: 'https://github.com/Esoteriikos/CoWin-ASAP',
     // date: 'March 2021 - April 2021',
   },
 
@@ -131,9 +157,9 @@ const projectsData = [
     image: './images/projects/weather-app.jpg', // REPLACE/ENSURE this image exists
     description:
       'Application that delivers real-time weather updates for any city across the globe. Built with a focus on simplicity and usability, the app fetches and displays key weather metrics such as temperature, humidity, wind speed, and forecasts using the OpenWeatherMap API. It also integrates data visualization for a better user experience.',
-    tech: ['Python', 'API Integration', 'Plotly', 'Streamlit', 'Sentry', 'Render', 'Pandas'],
+    tech: ['Python', 'Sentry', 'API Integration', 'Plotly', 'Streamlit', 'Render', 'Pandas'],
     liveLink: null,
-    // githubLink: 'https://github.com/shubham-ch9/vaccine-slot-detector', // Example, replace
+    githubLink: 'https://github.com/Esoteriikos/WeatherAPP',
     // date: 'March 2021 - April 2021',
   },
   {
@@ -159,7 +185,7 @@ const projectsData = [
       'Matplotlib'
     ],
     liveLink: null,
-    // githubLink: 'https://github.com/your-plant-disease-repo', 
+    githubLink: 'https://github.com/Esoteriikos/Plant-Pathology', 
     // date: 'August 2024 - September 2024',
   }
 
