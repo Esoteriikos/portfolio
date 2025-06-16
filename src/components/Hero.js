@@ -57,7 +57,9 @@ const Hero = () => {
         <p className="text-md sm:text-lg text-gray-400 mb-10 leading-relaxed max-w-2xl mx-auto">Available for Summer 2026 opportunities.</p>
         <div className="flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-6 mb-12">
           <Link href="#projects" className="bg-indigo-600 hover:bg-indigo-700 text-white font-semibold py-3 px-10 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">View My Work</Link>
-          <a href="./Shubham_Chaudhari-Resume.pdf" target="_blank" rel="noopener noreferrer" className="border-2 border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white font-semibold py-3 px-10 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">Download Resume</a>
+          <a href="./Shubham_Chaudhari_Resume.pdf" target="_blank" rel="noopener noreferrer" className="border-2 border-indigo-500 text-indigo-400 hover:bg-indigo-500 hover:text-white font-semibold py-3 px-10 rounded-lg text-lg transition-all duration-300 ease-in-out transform hover:scale-105 shadow-lg hover:shadow-indigo-500/50 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-opacity-75">
+            Download Resume
+          </a>
         </div>
         <div className="flex justify-center space-x-8">
           <a href="https://linkedin.com/in/shubham-ch" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-gray-400 hover:text-indigo-300 transition-all duration-300 transform hover:scale-125 hover:rotate-6"><FaLinkedin size={36} /></a>
