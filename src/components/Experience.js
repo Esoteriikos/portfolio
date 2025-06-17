@@ -7,10 +7,9 @@ const experienceData = [
     location: 'Mumbai, India',
     duration: 'Aug 2024 - Dec 2024',
     description: [
-      "Architected and developed an end-to-end GenAI assistant with LangChain and CodeQwen, leveraging a custom-configured vector database to query internal Java SDKs",
-      "Built a high-fidelity data ingestion pipeline using LlamaParse and custom PyPDF parsers, optimizing document chunking strategies which enhanced LLM processing efficiency by 40%",
-      "Engineered a hybrid retrieval system with a cross-encoder re-ranker to boost contextual accuracy by 25% over baseline vector search, delivering superior context to the generator model",
-      "Established a robust LLMOps framework: utilized Apache Airflow for data orchestration, Docker for containerization, and MLflow for experiment tracking, leading to a 30% rise in developer productivity",
+      "Engineered context-aware AI coding assistant by fine-tuning CodeQwen and implementing a LangChain RAG pipeline querying proprietary Java SDKs from a vector database, all managed within a robust LLMOps framework, leading to a 30% rise in productivity",
+      "Constructed data ingestion and ETL pipeline for RAG, parsing multiple file formats with a hybrid approach of LlamaParse and custom scripts improving context-aware chunking to preserve semantic integrity, diminishing LLM token overhead by 40%",
+      "Implemented a cross-encoder re-ranker within a hybrid retrieval system with prompt fine tuning and guardrails for response quality achieving 40% lift in contextual accuracy over baseline vector search and providing cleaner context to LLM generator model",
     ],
   },
   {
@@ -19,11 +18,11 @@ const experienceData = [
     location: 'Mumbai, India',
     duration: 'July 2021 - July 2024',
     description: [
-      "Architected a multi-camera vision pipeline integrating OpenPose, OpenCV with data from IoT load sensors using Pub/Sub messaging system to track end-to-end customer journey  in an autonomous store, reducing checkout times by over 80%",
-      "Developed two targeted solutions on Azure Vision Studio: 1) A custom shelf-monitoring model that cut stockout and spoilage delays by 60%, and 2) A CCTV video summarization service that reduced incident review time by 70%",
-      "Pioneered a generative AI pipeline for instant e-commerce cataloging; integrated Super-Resolution CNNs and GANs to perform virtual clothing try-ons from a single 2D image, cutting catalog production time from weeks to hour",
-      "Optimized models for edge deployment on NVIDIA Jetson devices, using ONNX, TensorRT and model quantization to boost real-time item recognition to achieve 7x faster inference",
-      "Spearheaded the 'TechFM' knowledge-sharing program, training 400+ colleagues and 1000+engineering  students in practical AI/ML concepts, fostering a culture of technical excellence and continuous learning"
+      "Led development of multi-camera vision pipeline integrating OpenPose, OpenCV with data from IoT load sensors using Pub/Sub messaging system to track end-to-end customer journey in autonomous store, decreasing checkout times by over 80%",
+      "Developed two targeted solutions utilizing Azure Vision Studio: Custom shelf-monitoring model cutting stockout and spoilage delays by 65%, and CCTV video summarization and text querying service fetching incident reducing incident review time by 70%",
+      "Devised generative AI pipeline for automated cataloging, enabling 2D virtual try-ons via Super-Resolution CNNs and GANs cutting production time from weeks to hours, while prototyping 3D reconstruction (NeRFs/Splatting) creating interactive assets from 2D images",
+      "Optimized models for edge deployment on NVIDIA Jetson devices, using ONNX, TensorRT and model quantization boosting real-time item recognition achieving 7x faster inference",
+      "Spearheaded collaborative efforts 'TechFM' knowledge-sharing program, training 400+ colleagues and 1000+ Bachelor’s students in practical AI/ML concepts, fostering a culture of technical excellence and continuous learning",
     ],
   },
   {
@@ -32,7 +31,7 @@ const experienceData = [
     location: 'Mumbai, India',
     duration: 'Feb 2021 - May 2021',
     description: [
-      "Engineered predictive models for Materiovigilance, utilizing Lasso regression for feature selection and XGBoost for high-accuracy prediction, which boosted the early detection of adverse events by 25%",
+      "Engineered predictive models for Materiovigilance, utilizing Lasso regression for feature selection and XGBoost for high-accuracy prediction, which boosted the early detection of adverse events by 60%",
       "Led the design and deployment of a Python-based  Streamlit analytics dashboard, providing healthcare professionals with real-time, actionable insights from MongoDB data and accelerating clinical response times",
 
     ],
