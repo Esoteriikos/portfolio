@@ -2,6 +2,26 @@ import { FaBuilding, FaCalendarAlt } from 'react-icons/fa';
 
 const experienceData = [
   {
+    role: 'Student Software Engineer',
+    company: 'USC FPM - MIS',
+    location: 'Los Angeles, CA, USA',
+    duration: 'June 2025 - Present',
+    description: [
+      "Restructured and optimized the MIS system, enhancing scalability and fault tolerance for backend API workflows in production",
+      "Collaborated on MIS data pipelines, enabling real-time analytics and supporting expansion of operational dashboards",
+    ],
+  },
+  {
+    role: 'Volunteer Software Engineer',
+    company: 'SIGMA HEALTH SENSE',
+    location: 'Los Angeles, CA, USA',
+    duration: 'June 2025 - August 2025',
+    description: [
+      "Implemented TTS/STT solutions for custom AI agents and chatbots, integrating Twilio to enhance business workflow automation",
+      "Built modular AI pipelines to streamline voice-data processing, leveraging Gemini to extract user intent and trigger dynamic actions like querying health databases to assist patients in real time",
+    ],
+  },
+  {
     role: 'AI ML Engineer II',
     company: 'HERE Technologies, Tech. Innovation Lab',
     location: 'Mumbai, India',
