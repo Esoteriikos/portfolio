@@ -22,6 +22,7 @@ const About = () => {
             innovation. Currently, I am enhancing my expertise through a Masters in
             Computer Science with a specialization in Data Science at the University of Southern California.
           </p>
+          
           <p>
             My goal is to contribute to impactful projects that leverage data to create smarter,
             more efficient solutions for real-world problems. I am always eager to connect with
