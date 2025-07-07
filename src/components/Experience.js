@@ -2,7 +2,7 @@ import { FaBuilding, FaCalendarAlt } from 'react-icons/fa';
 
 const experienceData = [
   {
-    role: 'Student Software Engineer',
+    role: 'Student Backend System Engineer',
     company: 'USC FPM - MIS',
     location: 'Los Angeles, CA, USA',
     duration: 'June 2025 - Present',
@@ -12,7 +12,7 @@ const experienceData = [
     ],
   },
   {
-    role: 'Volunteer Software Engineer',
+    role: 'Volunteer Full Stack AI Engineer',
     company: 'SIGMA HEALTH SENSE',
     location: 'Los Angeles, CA, USA',
     duration: 'June 2025 - August 2025',
