@@ -22,6 +22,13 @@ const testimonialsData = [
     quote: "I've worked with Shubham for over 2 years and i can say, without a doubt that Shubham is an absolute gem, in terms of skills, professionalism and as a person! He is very research oriented and his knowledge in the field of machine learning and AI is vast. He would be one of the very few people you meet in life, who are highly intelligent, yet humble. Shubham was very helpful, patient and understanding, as a team member. His on-time delivery attitude ensured problems were tackled within a stipulated timeline, without any spillovers. It was a delightful experience to work with him because there was never a dull moment when he was around."
   },
   {
+    name: "Jasvin James",
+    title: "Cloud Platform Engineer @ MathWorks",
+    relation: "Jasvin and Shubham studied together",
+    // linkedin: "https://www.linkedin.com/in/anisha-udayakumar/", // Example
+    quote: "Shubham is one of the most technically creative and hard working people I know. His knowledge of AI & ML coupled with his background in electronics and hardware is amazing. Something that always stands out to me is the home automation smart system that he and his brother kicked off and pretty much 'smartified' their whole house which shows how curious he is and how he will relentlessly pursue a goal to its fruition."
+  },
+  {
     name: "Balamurali Venkatesan",
     title: "Head - Retail Research Centre @ Tata Consultancy Services",
     relation: "Managed Shubham directly",
