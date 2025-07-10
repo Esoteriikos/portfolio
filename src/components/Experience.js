@@ -13,7 +13,7 @@ const experienceData = [
   },
   {
     role: 'Volunteer Full Stack AI Engineer',
-    company: 'SIGMA HEALTH SENSE',
+    company: 'Lumina AI Health Institute (Non-Profit)',
     location: 'Los Angeles, CA, USA',
     duration: 'June 2025 - August 2025',
     description: [
